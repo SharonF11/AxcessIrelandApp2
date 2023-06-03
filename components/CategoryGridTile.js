@@ -27,14 +27,16 @@ const styles = StyleSheet.create({
         margin: 16,
         height: 150,
         borderRadius: 8,
+        borderColor:'white',
         elevation: 4,
         backgroundColor: 'white',
         shadowColor: 'black',
-        shadowOpacity: 0.25,
+        shadowOpacity: 0.50,
         shadowOffset: { width: 0, height: 2},
-        shadowRadius: 8,
+        shadowRadius: 16,
         overflow: Platform.OS === 'android' ? 'hidden' : 'visible',
-        textAlign:'center'
+        textAlign:'center',
+        
     },
     button:{
         flex: 1,
@@ -44,14 +46,16 @@ const styles = StyleSheet.create({
    },
     innerContainer: {
         flex: 1,
-        padding:16,
+        padding:10,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 8,
-
+        borderRadius: 7,
+        borderColor: 'white',
+        
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 15,
+        fontSize: 15, 
+        color:'white', 
     }
 });
